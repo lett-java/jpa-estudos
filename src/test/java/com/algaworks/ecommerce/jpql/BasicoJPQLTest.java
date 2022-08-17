@@ -30,7 +30,6 @@ public class BasicoJPQLTest extends EntityManagerTest {
 		List<Cliente> clientes = typedQueryCliente.getResultList();
 		
 		assertTrue(Cliente.class.equals(clientes.get(0).getClass()));
-		
 	}
 
     @Test
